@@ -1,9 +1,9 @@
-def moji(a, b, c):
+def greeting(a, b, c):
     s = a + b + c
     return s
 
 
-num = moji("Hello python", '\nMi name is Mike', '\nHow are you?')
+num = greeting("Hello python", '\nMi name is Mike', '\nHow are you?')
 print(num)
 
 
