@@ -15,9 +15,9 @@ def name(a, b):
     return farst
 
 
-f = name("山田", "太郎")
-print(f)
-print(type(f))
+family_name = name("山田", "太郎")
+print(family_name)
+print(type(family_name))
 
 
 tuple_fruits = "banana", "orange", "apple"

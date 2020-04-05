@@ -1,22 +1,24 @@
-def greeting(a, b, c):
+def get_greeting(a, b, c):
     s = a + b + c
     return s
 
 
-num = greeting("Hello python", '\nMi name is Mike', '\nHow are you?')
-print(num)
+set_greeting = get_greeting(
+    "Hello python", '\nMi name is Mike', '\nHow are you?')
+
+print(set_greeting)
 
 
-def name(a, b, c, d):
+def set_name(a, b, c, d):
     e = a+b+c+d
     return e
 
 
-farst = name("suszuki", "\ntanaka", "\nkobayashi", "\nsasaki")
-print(farst)
+family_name = set_name("suszuki", "\ntanaka", "\nkobayashi", "\nsasaki")
+print(family_name)
 
 
-def mod(coin):
+def set_coins(coin):
     if coin == '表':
         return('赤組')
     elif coin == '裏':
@@ -25,5 +27,5 @@ def mod(coin):
         return('どちらでもない')
 
 
-onamae = mod('表')
-print(onamae)
+get_which = set_coins('裏')
+print(get_which)

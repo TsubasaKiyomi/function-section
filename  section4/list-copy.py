@@ -1,4 +1,4 @@
-def num(a):
+def set_num(a):
     a = [1, 2, 3, 4, 5]
     b = a
     b[0] = 300
@@ -7,23 +7,23 @@ def num(a):
 # 300を入れリターンでnum関数へ
 
 
-h = num(1)
-print(h)
+get_num = set_num(1)
+print(get_num)
 
 
-def test(e):
+def set_number(e):
     c = [5, 4, 3, 2, 1]
     e = c.copy()
     e[4] = "s"
     return e
 
 
-test2 = test(1)
-print(id(test(0)))
-print(id(test2))
+num_num = set_number(1)
+print(id(set_number(0)))
+print(id(num_num))
 # .copyしたのでid番号は違う
-print(test(0))
-print(test2)
+print(set_number(0))
+print(num_num)
 # id番号は違うが出力結果は同じになってしまう
 
 # i = [1, 2, 3, 4, 5]

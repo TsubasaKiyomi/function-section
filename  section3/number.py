@@ -1,14 +1,14 @@
 # mathの使い方
+
 import math
 x = 1.2345
 print(math.floor(x))
 # floor関数は浮動小数点の最大の整数を返す
 
+
 x = 1.2345
 print(math.ceil(x))
 # ceil関数は浮動小数点の最小の整数を返す
-
-# 10を5回かけた
 
 
 def test(a, b):
@@ -18,6 +18,7 @@ def test(a, b):
 
 num = test(10, 5)
 print(num)
+# 10を5回かけた
 
 
 def number(a, b):
@@ -28,24 +29,22 @@ def number(a, b):
 answer = number(10, 10)
 print(answer)
 
-# 17割る3の余り
 
-
-def numb(a, b):
+def test_number(a, b):
     c = a % b
     return c
 
 
-ans = numb(17, 3)
-print(ans)
+get_answer = test_number(17, 3)
+print(get_answer)
+# 17割る3の余り
 
-# 割った際の小数点以下を切り捨て
 
-
-def dnumb(a, b):
+def set_num(a, b):
     c = a // b
     return c
 
 
-ans = dnumb(17, 6)
-print(ans)
+get_num = set_num(17, 6)
+print(get_num)
+# 割った際の小数点以下を切り捨て

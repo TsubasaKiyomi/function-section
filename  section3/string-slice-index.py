@@ -9,10 +9,10 @@ def greeting(a, b, c):
     return s
 
 
-num = greeting("おはようございます", '\nこんにちは', '\nこんばんわ')
-print(len(num))
-print(num[0:9])
-print(num[10:15])
-print(num[16:])
-num = 'good', 'morning ' + num[16:]
-print(num)
+get_greeting = greeting("おはようございます", '\nこんにちは', '\nこんばんわ')
+print(len(get_greeting))
+print(get_greeting[0:9])
+print(get_greeting[10:15])
+print(get_greeting[16:])
+get_greeting = 'good', 'morning ' + get_greeting[16:]
+print(get_greeting)
