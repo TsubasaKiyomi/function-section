@@ -1,7 +1,7 @@
-def get_list(name, age, sex):
+def get_list(name, age, gender):
     print(name)
     print(age)
-    print(sex)
+    print(gender)
 
 
 get_list("鈴木", "40", "男")

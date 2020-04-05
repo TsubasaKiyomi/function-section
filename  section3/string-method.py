@@ -1,5 +1,5 @@
 def set_method(a, b, c):
-    d = a+b+c
+    d = a + b + c
     return d
 
 
