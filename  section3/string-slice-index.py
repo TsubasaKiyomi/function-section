@@ -14,5 +14,5 @@ print(len(num))
 print(num[0:9])
 print(num[10:15])
 print(num[16:])
-num = 'good', 'morning' + num[15:]
+num = 'good', 'morning ' + num[16:]
 print(num)
