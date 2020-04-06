@@ -1,50 +1,36 @@
 # mathの使い方
-
 import math
-x = 1.2345
-print(math.floor(x))
+
+
 # floor関数は浮動小数点の最大の整数を返す
+print(math.floor(1.2345))
 
 
-x = 1.2345
-print(math.ceil(x))
 # ceil関数は浮動小数点の最小の整数を返す
+print(math.ceil(1.2345))
 
 
-def test(a, b):
-    x = a**b
-    return x
+# aをb回かける関数
+def powar(a, b):
+    return a**b
 
 
-num = test(10, 5)
-print(num)
-# 10を5回かけた
+# a描けるbを計算する関数
+def multiplication(a, b):
+    return a * b
 
 
-def number(a, b):
-    c = a*b
-    return c
+# a割るbの余りを計算する関数
+def remainder(a, b):
+    return a % b
 
 
-answer = number(10, 10)
-print(answer)
+# 割った際の小数点以下を切り捨てを計算する関数
+def division_truncation(a, b):
+    return a // b
 
 
-def test_number(a, b):
-    c = a % b
-    return c
-
-
-get_answer = test_number(17, 3)
-print(get_answer)
-# 17割る3の余り
-
-
-def set_num(a, b):
-    c = a // b
-    return c
-
-
-get_num = set_num(17, 6)
-print(get_num)
-# 割った際の小数点以下を切り捨て
+print(powar(10, 5))
+print(multiplication(10, 10))
+print(remainder(17, 3))
+print(division_truncation(17, 6))

@@ -1,15 +1,15 @@
 word = "hello world"
 
-print(word[2])
-print(word[6])
-
 
 def greeting(a, b, c):
-    s = a + b + c
-    return s
+    return a + b + c
 
 
 get_greeting = greeting("おはようございます", '\nこんにちは', '\nこんばんわ')
+
+
+print(word[2])
+print(word[6])
 print(len(get_greeting))
 print(get_greeting[:9])
 print(get_greeting[10:15])

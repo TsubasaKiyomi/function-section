@@ -1,29 +1,19 @@
-def get_raed(a):
-    s = a
-    return s
+def raed_namber(a):
+    return a
 
 
-x = get_raed([1, 1, 2, 2, 3, 3, 4, 5, 1, 2, 3])
-print(x.index(3, 6))  # 6番目以降の３の場所
-x.sort()  # 数字の小さい順に並び替える
-print(x)
-x.sort(reverse=True)  # 数字の大きい順に並び替え x.reverse()でも可能
-print(x)
-x.reverse()  # 順番を逆にする
-print(x)
+number_x = raed_namber([1, 1, 2, 2, 3, 3, 4, 5, 1, 2, 3])
 
 
 def get_list(b):
-    c = b
-    return c
+    return b
 
 
-z = get_list("Mi name is ボブ.")
-to_split = z.split(" ")  # .splitはリストに入れてスペースで分ける
-print(to_split)
+number_z = get_list("Mi name is ボブ.")
+to_split = number_z.split(" ")  # .splitはリストに入れてスペースで分ける
 
-s = " ".join(to_split)  # .joinはリストのデータを空白文字で繋げる
-print(s.title())  # .titleで頭文字だけ大きくする
+
+number_s = " ".join(to_split)  # .joinはリストのデータを空白文字で繋げる
 
 
 def get_nam(**a):
@@ -31,12 +21,21 @@ def get_nam(**a):
     return s
 
 
-# x = ra("abcdeabcde" "ssddxx" "ffddeerr")
-# print(x.index("b", 3))  # 6番目以降の３の場所
 set_suitable_list = ["abcdeabcde", " ssddxx", " ffddeerr"]
 set_suitable_list.reverse()  # 順番を逆にする
+
+
 print(set_suitable_list)
 set_suitable_list.sort(reverse=True)
 print(set_suitable_list)
 set_suitable_list.sort()
 print(set_suitable_list)
+print(number_x.index(3, 6))  # 6番目以降の３の場所
+number_x.reverse()  # 順番を逆にする
+print(number_x)
+number_x.sort()  # 数字の小さい順に並び替える
+print(number_x)
+number_x.sort(reverse=True)  # 数字の大きい順に並び替え x.reverse()でも可能
+print(number_x)
+print(number_s.title())  # .titleで頭文字だけ大きくする
+print(to_split)

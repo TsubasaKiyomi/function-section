@@ -1,24 +1,27 @@
 def set_tuple(a):
-    d = a
-    return d
+    return a
 
 
-t = set_tuple((1))
-print(type(t))
 # ()をつつけても(,)がないのでint型になる
+tuple_b = set_tuple(1)
+print(tuple_b)
+print(type(tuple_b))
 
-x = set_tuple(1,)
-print(type(x))
+
 # (,)をつけても()がないのでint型になる
+tuple_x = set_tuple(1,)
+print(type(tuple_x))
 
-s = set_tuple((1,))
-print(type(s))
+
 # ()も(,)もついているのでtuple型になる
+tuple_s = set_tuple((1,))
+print(type(tuple_s))
 
-g = set_tuple((2,))
-f = set_tuple((4,))
-print(g+f)
-# (2,4)
+
+# (2,4)繋げることができる
+tuple_z = set_tuple((2,))
+tuple_y = set_tuple((4,))
+print(tuple_z + tuple_y)
 
 # g = set_tuple((2,))
 # f = set_tuple((4))

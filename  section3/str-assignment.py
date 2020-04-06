@@ -1,10 +1,6 @@
 def station(start, goal, *args):
-    print(start)
-    print(goal)
-    print(*args)
-
-
-station('横浜', '梅田', '東京', "京都", "新大阪")
+    station('横浜', '梅田', '東京', "京都", "新大阪")
+    print(start, goal, *args)
 
 
 def profile(name, gender, **other):
@@ -18,13 +14,9 @@ profile('Mike', '男', 身長='189cm', 体重='87kg')
 
 
 def get_family_list(**family):
-    # print(name)
-    # print(address)
+    get_family_list(名前="佐々木", 住所="東京", 家族="5人")
+    get_family_list(名前="Mike", 住所="アメリカ", 家族="3人")
     print(family)
-
-
-get_family_list(名前="佐々木", 住所="東京", 家族="5人")
-get_family_list(名前="Mike", 住所="アメリカ", 家族="3人")
 
 
 def get_orchid(name, address, **family):
