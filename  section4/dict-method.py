@@ -6,12 +6,10 @@ def dict_methods():
     print(kyes_a["x"])  # kyes_aのなかにある"z"キーから値を取れる
 
     kyes_a.pop("x")  # kyes_aのなかにある"x"を消せる
-
     del kyes_a["z"]  # kyes_aのなかにある"z"キーを消せる
     print(kyes_a)
 
     kyes_a.clear()  # kyes_aの中身を消す
-
     print(kyes_a)
     print("g" in kyes_b)  # "g"キーはfの中にあるか？
 
