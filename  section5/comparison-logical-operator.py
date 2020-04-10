@@ -8,10 +8,10 @@ for i in range(1, 11):
     print(str(i) + "=" + even_odd(i))
 
 
-def a_than(numbers):
-    if numbers != 4:
+def a_than(choose_numbers):
+    if choose_numbers != 4:
         return("ok")
     return("bad")
 
 
-print(a_than(4))
+print(a_than(2))

@@ -1,6 +1,6 @@
 #  集合型の使い所
-def set_use(a):
-    a
+def set_use():
+    return group_color
 
 
 #  重複するgroup_colorをfor文でkyeとvalueにわけて出力。重複項目はset型なので統一される
