@@ -4,7 +4,7 @@ def even_odd(number):
     return "奇数です"
 
 
-for i in range(1, 11):
+for i in range(1, 3):
     print(str(i) + "=" + even_odd(i))
 
 

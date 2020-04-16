@@ -1,25 +1,25 @@
-elses = 0
-
-
-def loops(elses):
-    elses
-
-
 # elseはbreakが無い場合などに使う。breakしなかったらループから抜ける。
-while elses < 5:
-    print(elses)
-    elses += 1
+i = 0
+
+
+def loops(i):
+    print(loops)
+
+
+while i < 2:
+    print(i)
+    i += 1
 else:
+    print(i)
     print("抜けます")
+loops("i")
 
-
-loops("elses")
 
 count = 0
 
 
 def loop_count(count):
-    count
+    return count
 
 
 # breakがあればbreakでループから抜けるが、もしループから抜けなくても、elseでループから抜ける。

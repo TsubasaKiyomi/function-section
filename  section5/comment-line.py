@@ -1,6 +1,4 @@
 # コメントはコードの上に記載する。（pythonの暗黙の了解）
-
-
 def furits_lisst(*kwags):
     return kwags
 
@@ -17,7 +15,6 @@ good_time_to_eat = furits_lisst(
     "melon",
     "pear",
     "peach")
-print(good_time_to_eat)
 
 
 def furits_japanes_name(*entry_furits):
@@ -28,7 +25,6 @@ def furits_japanes_name(*entry_furits):
 furits_eat = furits_japanes_name("バナナ, オレンジ, りんご, "
                                  + "イチゴ\nパイナップル, みかん, "
                                  + "さくらんぼ\nスイカ, メロン, 梨, 桃")
-print(furits_eat)
 
 
 def loop(loop_furits_name):
@@ -40,4 +36,6 @@ def loop(loop_furits_name):
         print(furits_name)
 
 
+print(good_time_to_eat)
+print(furits_eat)
 loop("loop_furits_name")

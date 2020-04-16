@@ -42,17 +42,15 @@ while True:
         break
 print("「 {0} 」 正解です！！".format(idiom))
 
+
 idioms("idiom")
 
 
 # def be(bane):
 #     bane
-
-
 # min_length = 3
 # name = input("4文字以上入力して:")
 # while not(len(name) > min_length and name.isalpha()):
 #     bane = input("4文字以上入力して:")
 # print("あなたは, {0}と入力した".format(name))
-
 # be("bane")

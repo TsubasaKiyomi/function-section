@@ -8,9 +8,6 @@ def number_even():
         print("終わり")
 
 
-number_even()
-
-
 def number_odd():
     for odd in range(1, 11):
         # range()の内の数字が[ % 3 == 3:] 3で割り切れるのなら"奇数"
@@ -21,17 +18,11 @@ def number_odd():
         print("終わり")
 
 
-number_odd()
-
-
 def words():
     for word in ["表示されます１", "ここはスキップされます", "表示されます２", "表示されます３"]:
         if word == "ここはスキップされます":
             continue
         print(word)
-
-
-words()
 
 
 def num_loop():
@@ -42,4 +33,7 @@ def num_loop():
     print(str(i) + "回目です。3回目のループを抜けます")
 
 
+number_even()
+number_odd()
+words()
 num_loop()

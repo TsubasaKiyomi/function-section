@@ -15,7 +15,7 @@ def powar(a, b):
     return a**b
 
 
-# a描けるbを計算する関数
+# a掛けるbを計算する関数
 def multiplication(a, b):
     return a * b
 
@@ -31,6 +31,6 @@ def division_truncation(a, b):
 
 
 print(powar(10, 5))
-print(multiplication(10, 10))
+print(multiplication(3, 3))
 print(remainder(17, 3))
 print(division_truncation(17, 6))

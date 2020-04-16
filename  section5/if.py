@@ -10,9 +10,6 @@ def if_egg(raw):
         print("煮卵")
 
 
-if_egg("raw")
-
-
 # qusetion「吾輩は＿＿＿である」
 def if_question(qusetion):
     if qusetion == "猫":
@@ -27,5 +24,6 @@ def if_question(qusetion):
         print("不正解")
 
 
+if_egg("raw")
 # if_question()内に「吾輩は＿＿＿である」の答えを入れると正負が出力される
-if_question("")
+if_question("ねこ")

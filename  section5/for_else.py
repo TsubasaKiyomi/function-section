@@ -13,9 +13,6 @@ def gass(gasoline):
         print("満タンになりました！")
 
 
-gass("gasoline")
-
-
 def treasure_empty(treasure_box):
     for treasure_box in ["空っぽ", "空っぽ", "空っぽ", "宝箱", "空っぽ"]:
         if treasure_box == "宝箱":
@@ -26,4 +23,5 @@ def treasure_empty(treasure_box):
         print("もうありません。")
 
 
+gass("gasoline")
 treasure_empty("treasure_box")
